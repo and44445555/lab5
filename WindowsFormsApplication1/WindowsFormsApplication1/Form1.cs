@@ -38,5 +38,13 @@ namespace WindowsFormsApplication1
             s = textBox21.Text;
             b = Convert.ToDouble(s);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double r = Convert.ToDouble(textBox1.Text);
+             double t = Convert.ToDouble(textBox2.Text);
+             double y = r + t;
+             textBox3.Text = y.ToString();
+        }
     }
 }
